@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Profile</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <header class="top-bar">
+    <div class="logo">Portfolio</div>
+    <nav>
+      <a href="#top-section">Profile</a>
+      <a href="#about">About</a>
+      <a href="#hero">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- Top Section: Profile + Experience + Contact -->
+    <section id="top-section" class="top-section full-screen">
+      <div class="top-section-content">
+
+        <!-- Left: Profile -->
+        <div class="left-side">
+          <div class="profile-card">
+            <img src="image.jpg" alt="Profile" class="avatar">
+            <h2>Danyal Ahmed</h2>
+            <p>Full-Stack Developer</p>
+          </div>
+        </div>
+
+        <!-- Right: Experience + Contact -->
+        <div class="right-side">
+          <div class="experience-card">
+            <h3>Education</h3><br>
+            <ul>
+              <p> BSCS  FAST NUCES LAHORE</pp>
+              <p> FSC Pre-Engineering  PGC OKARA </p>
+              <p> Matric  Falcon Public School OKARA</p>
+            </ul>
+          </div>
+
+<div class="contact-card">
+  <h3>Social Links</h3><br>
+  <button class="email" onclick="window.open('mailto:danyalnadeem288@gmail.com')">Email</button>
+  <button class="linkedin" onclick="window.open('https://www.linkedin.com/in/danyal-nadeem-3a4038382', '_blank')">LinkedIn</button>
+  <button class="github" onclick="window.open('https://github.com/Danyal-Nadeem', '_blank')">GitHub</button>
+</div>
+
+
+      </div>
+    </section>
+<!-- About Section -->
+<section id="about" class="card full-screen about-section">
+  <h2>About Me</h2>
+  <p class="intro"><b style="font-size: 24px ;color: rgb(8, 8, 16);">Hi, I'm Danyal Ahmed</b> a dedicated and results-driven Full Stack Developer and Software Engineer with extensive hands-on experience across the entire software development lifecycle. My expertise spans designing responsive and intuitive user interfaces, architecting secure and high-performance backend systems, and implementing seamless database connectivity for scalable applications.</p>
+  <p>I work confidently across both frontend and backend technologies, ensuring that every component—from UI/UX to server logic and APIs—functions cohesively and efficiently. With strong proficiency in modern programming languages, frameworks, and industry best practices, I focus on writing clean, maintainable, and optimized code that aligns with long-term scalability and business requirements.</p>
+  <p>My problem-solving mindset, continuous learning approach, and attention to detail enable me to transform complex challenges into elegant technical solutions. Whether building complete systems from scratch or enhancing existing ones, I am committed to delivering reliable, high-quality software that provides meaningful user impact and supports organizational growth.</p>
+</section>
+
+<!-- Hero Section: Professional Summary -->
+<section id="hero" class="hero-video-section full-screen">
+  <h1>Professional Summary and Skills</h1><br>
+  <p>Experienced Full-Stack Developer skilled in building scalable, user-friendly applications using modern frontend and backend technologies.</p>
+  <br>
+  <div class="skills">
+    <span><i class="fab fa-html5"></i> HTML5</span>
+    <span><i class="fab fa-css3-alt"></i> Tailwind CSS</span>
+    <span><i class="fab fa-js"></i> JavaScript</span>
+    <span><i class="fab fa-react"></i> React</span>
+    <span><i class="fab fa-node-js"></i> Node.js</span>
+    <span><i class="fab fa-java"></i> Java</span><br>
+
+    <span><i class="fab fa-python"></i> Python</span>
+    <span><i class="fas fa-database"></i> MySQL</span>
+    <span><i class="fas fa-database"></i> PostgreSQL</span>
+    <span><i class="fas fa-server"></i> SQL Server</span>
+    <span><i class="fab fa-docker"></i> Docker</span><br>
+
+    <span><i class="fas fa-network-wired"></i> API Development</span>
+    <span><i class="fas fa-link"></i> Database Connectivity</span>
+  </div>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="card full-screen">
+  <h2>Projects</h2>
+  <div class="project-list">
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/Candy-crush-', '_self')">Candy-crush</button>
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/School-management-system-OOP-Concepts-', '_self')">School Management System</button>
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/Tic-Tac-Toe-Game-', '_self')">Tic Tac Toe</button>
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/Flying-Bird-Game-by-Using-Assembly-Language', '_self')">Flying Bird Game</button>
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/Generative-Chatbot', '_self')">Generative Chatbot</button>
+    <button onclick="window.open('https://github.com/Danyal-Nadeem/Campus-Core', '_self')">Campus Core Desktop APP</button>
+  </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="card full-screen">
+      <h2>Contact Me</h2><br>
+      <form id="contactForm">
+        <input name="name" placeholder="Your Name" required>
+        <input name="email" placeholder="Your Email" type="email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+</body>
+</html>
+
+
+
+
+
+
