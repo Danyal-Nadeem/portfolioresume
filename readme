@@ -1,0 +1,7 @@
+
+This is my personal portfolio website where I share my education, skills, projects, social links, and ways to contact me. I completed my BS in Software Engineering, where I studied subjects like web development, object-oriented programming, data structures, databases, and networking. I included my social links such as my LinkedIn profile, GitHub account, and email so people can easily connect with me.
+
+In this portfolio, I have listed the skills I have learned, including HTML, CSS, JavaScript, React, responsive design, Python, basic Node.js, Git, GitHub, SQL databases, REST APIs, and deployment platforms. I also added details about the projects I have created, such as a Candy Crush-style JavaScript game, a complaint management system using AVL trees and a heap in C++, a user management system using a doubly linked list and AVL tree, and my own responsive portfolio website.
+
+The portfolio also has a contact section where visitors can reach me through email or LinkedIn. I deployed this website using platforms like pythonwhere. Anyone who wants to run the project locally can simply clone the repository, open the folder, and write python server.py on terminal.
+
